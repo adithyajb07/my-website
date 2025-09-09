@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Adithya Jisha Biju</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Playfair Display', serif;
+            background-image: url('back.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            @apply bg-gray-50 text-gray-800 flex flex-col min-h-screen;
+        }
+
+        .content-container {
+            background-color: rgba(255, 255, 255, 0.85);
+        }
+    </style>
+</head>
+<body class="antialiased flex flex-col min-h-screen">
+
+    <!-- Header and Navigation -->
+    <header class="bg-gray-900/90 backdrop-blur-md shadow-sm sticky top-0 z-50">
+        <nav class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="index.html" class="text-white text-xl font-bold rounded-lg p-2 hover:bg-blue-600 transition-colors">Adithya Jisha Biju</a>
+            <div class="space-x-4 flex items-center">
+                <a href="about.html" class="text-white hover:text-blue-200 hover:bg-blue-600 px-3 py-2 rounded-md transition-colors">About</a>
+                <!--<a href="index.html#projects" class="text-white hover:text-blue-200 hover:bg-blue-600 px-3 py-2 rounded-md transition-colors">Projects</a>-->
+                <a href="memories.html" class="text-white hover:text-blue-200 hover:bg-blue-600 px-3 py-2 rounded-md transition-colors">Memories</a>
+                <a href="#" class="text-white hover:text-blue-200 hover:bg-blue-600 px-3 py-2 rounded-md transition-colors">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="py-24 flex-grow">
+        <!-- Contact Section -->
+        <section id="contact" class="bg-blue-900/90 p-8 rounded-lg shadow-lg text-white max-w-2xl mx-auto">
+            <h2 class="text-3xl font-bold mb-6 text-center">Get in Touch</h2>
+            <p class="text-center mb-6">Feel free to reach out to me via phone, email, or social media for collaborations, questions, or just to say hello!</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-lg">
+                <div class="flex items-center space-x-4">
+                    <span class="text-blue-400">📞</span>
+                    <p>Phone: <a href="tel:+91 8714408712" class="hover:underline">+91 8714408712</a></p>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <span class="text-blue-400">📧</span>
+                    <p>Email: <a href="mailto:adithyajb2020@gmail.com" class="hover:underline">adithyajb2020@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="mt-8">
+                <h3 class="text-2xl font-bold mb-4 text-center">Connect with Me</h3>
+                <div class="flex justify-center space-x-6 text-2xl">
+                    <a href="https://github.com/adithyajb07" class="text-gray-300 hover:text-blue-400 transition-colors">GitHub</a>
+                    <a href="https://www.linkedin.com/in/adithya-jisha-biju-877898311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-gray-300 hover:text-blue-400 transition-colors">LinkedIn</a>
+                    <a href="https://www.instagram.com/adithyaajb?igsh=MWJneTBodmticjZ0aw==" class="text-gray-300 hover:text-blue-400 transition-colors">Instagram</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900/90 py-6 text-center text-gray-400 text-sm border-t border-gray-800">
+        <p>&copy; 2025 Adithya Jisha Biju. All rights reserved.</p>
+    </footer>
+</body>
+</html>
